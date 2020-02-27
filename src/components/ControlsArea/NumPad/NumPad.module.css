@@ -1,0 +1,7 @@
+.NumPad {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 260px;
+    margin: 5px 0;
+}

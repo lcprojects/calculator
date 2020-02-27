@@ -1,0 +1,43 @@
+.Button {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2px;
+    width: 42px;
+    height: 42px;
+    font-size: 13px;
+    border: none;
+    border-radius: 50%;
+    background-color: #fff;
+    outline: none;
+    color: #030203;
+    font-family: 'Roboto Mono';
+}
+
+.Button:hover {
+    background-color: #ebebeb;
+    border: 3px solid #f1f1f1;
+}
+
+.digit {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.Button:disabled {
+    cursor: default;
+    color: #ddd;
+    background-color: #fff;
+    border: none;
+}
+
+.operator {
+    color: #fe0d0b;
+}
+
+.equal:hover {
+    color: #fff;
+    border: 2px solid #ddacc4;
+    background-color: #fe0d0b;
+}

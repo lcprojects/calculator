@@ -1,0 +1,12 @@
+.CurrentComputation {
+    min-height: 25px;
+    margin: 0;
+    font-size: 18px;
+    color: #030203;
+    background-color: #fafafa;
+    word-break: break-word;
+}
+
+.CurrentComputation span {
+    color: #030203;
+}

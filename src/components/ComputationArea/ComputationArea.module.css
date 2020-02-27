@@ -1,0 +1,38 @@
+.ComputatationArea {
+    flex: 0 0 auto;
+    width: 250px;
+    text-align: right;
+}
+
+.Wrapper {
+    display: flex;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column-reverse;
+    padding: 5px 5px 0 5px;
+    min-height: 220px;
+    height: 220px;
+    background-color: #fafafa;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.Wrapper::-webkit-scrollbar {
+    width: 6px;
+}
+
+.Wrapper {
+    scrollbar-width: thin;
+    scrollbar-color: #555 #ccc;
+}
+
+.Wrapper::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.Wrapper::-webkit-scrollbar-thumb {
+    background-color: #fe0d0b ;
+    border-radius: 2px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
